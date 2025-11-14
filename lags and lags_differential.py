@@ -39,7 +39,6 @@ for tag in range(len(lags)):
     plt.plot(range(len(diff_data)), diff_data, label="一阶差分序列")
     plt.plot(range(len(diff_data_2)), diff_data_2, label="二阶差分序列")
     plt.plot(range(len(diff_data_3)), diff_data_3, label="三阶差分序列")
-
     plt.legend()
     plt.title(f"Lags:{lags[tag]}原序列和差分序列的对比")
     plt.xlabel("时间点")
