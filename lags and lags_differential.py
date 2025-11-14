@@ -33,5 +33,16 @@ for tag in range(len(lags)):
         diff_data_3[index] = diff_data_2[index + lags[tag]] - diff_data_2[index]
     print(f"lags为{lags[tag]}的三阶差分序列:", diff_data_3)
     print('-' * 150)
+    # 将原序列和差分序列生成出来
+    plt.figure(figsize=(10, 12))
+    plt.plot(range(len(data)), data, label="原序列")
+    plt.plot(range(len(diff_data)), diff_data, label="一阶差分序列")
+    plt.plot(range(len(diff_data_2)), diff_data_2, label="二阶差分序列")
+    plt.plot(range(len(diff_data_3)), diff_data_3, label="三阶差分序列")
 
+    plt.legend()
+    plt.title(f"Lags:{lags[tag]}原序列和差分序列的对比")
+    plt.xlabel("时间点")
+    plt.ylabel("值")
+    plt.show()
 
