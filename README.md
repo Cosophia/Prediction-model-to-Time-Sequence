@@ -19,7 +19,10 @@ Differential as a method to get rid of the correlation and the trend of the data
 2.Lags and Lags-Differential [ √ ] </br>
 3.ACF and PACF [ √ ] </br>
 4.stationarity vs Non-stationarity [  ] </br>
-如果到这里都能够理解，那恭喜你成功习得基础的处理和识别时间序列性质的能力，
+If you could clearly understand above,It's congratulation that now you learned the capability of handling and recognizing the quality of the time-Sequence</br>
+But I know that you're the person who is really eager to learn more.JUST GO AHEAD</br>
+如果到这里都能够理解，那恭喜你成功习得基础的处理和识别时间序列性质的能力。</br>
+但我知道爱学习的你肯定不止于此，请勇敢向前吧。</br>
 model list [whether completed]: </br>
 1.AR []</br>
 2.MA []</br>
