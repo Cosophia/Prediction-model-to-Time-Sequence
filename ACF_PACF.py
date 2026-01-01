@@ -89,3 +89,7 @@ if __name__ == "__main__":
     plot_acf(diff_data, lags=3)
     plot_pacf(diff_data,lags=3)
     plt.show()
+
+
+# 在实际运用中，是通过实际数据和时间划分来进行滞后，若滞后或原始数据不平稳，则需要差分进行处理，直至平稳为止。
+# 这里的代码演示仅仅lags = 3,差分阶次为1,请根据具体情况具体处理。
